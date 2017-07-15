@@ -5,7 +5,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* Global */
+/* GLOBAL */
 body {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ ul {
   margin: 0 !important;
   padding: 0 !important; }
 
-/* Classes */
+/* CLASSES */
 .section-header {
   text-align: left !important;
   margin-bottom: 10px;
@@ -78,10 +78,10 @@ ul {
   border: 2px solid #F9A03F;
   margin-bottom: auto; }
 
-/* SECONDARY */
+/* AFFILIATIONS */
 #affiliations {
   min-height: 400px;
-  background-color: #BBC8CA !important; }
+  background-color: #B1C1C0 !important; }
 
 #affiliations .section-header {
   color: #EDF2F4; }
@@ -136,3 +136,7 @@ ul {
 #footer form {
   margin-top: 20px !important;
   margin-bottom: 10px !important; }
+
+#footer .btn-default {
+  background-color: #A8E063 !important;
+  color: #FFFFFF; }

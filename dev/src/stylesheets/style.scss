@@ -5,6 +5,7 @@ $ralewaysemibold: 'Raleway', sans-serif;
 $inchworm: #A8E063;
 $neon-carrot: #F9A03F;
 $registration-black: #000009;
+$ash-grey: #B1C1C0;
 
 
 /*the padding and border of that element no longer increase its width*/
@@ -13,7 +14,7 @@ $registration-black: #000009;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-/* Global */
+/* GLOBAL */
 body {
   margin: 0;
   padding: 0;
@@ -24,7 +25,7 @@ ul {
   padding: 0 !important;
 }
 
-/* Classes */
+/* CLASSES */
 .section-header  {
   text-align: left !important;
   margin-bottom: 10px;
@@ -87,24 +88,23 @@ ul {
   border: 2px solid $neon-carrot;
   margin-bottom: auto;
 }
-/* SECONDARY */
+
+/* AFFILIATIONS */
 #affiliations {
   min-height: 400px;
-  background-color: #BBC8CA !important;
+  background-color: $ash-grey !important;
 }
-
 #affiliations .section-header {
   color: $anti-flash-white;
 }
-
 #affiliations img {
   max-width: 240px;
   height: auto;
 }
-
 #affiliations .thumbnail {
   margin-top: 10px;
 }
+
 /* FOOTER */
 #footer ul {
   list-style: none;
@@ -150,4 +150,8 @@ ul {
 #footer form {
   margin-top: 20px !important;
   margin-bottom: 10px !important;
+}
+#footer .btn-default {
+  background-color: $inchworm !important;
+  color: #FFFFFF;
 }

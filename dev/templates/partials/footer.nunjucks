@@ -20,11 +20,11 @@
         <p>© Copyright TCL Consulting, LLC. All rights reserved.</p>
       </div>
       <div class="col-xs-12 col-md-3">
-        <p>Phone: <a>888-555-5555</a></p>
-        <p>Email: <a>info@consultingbytcl.com</a></p>
+        <p><strong>Phone:</strong> <a>888-555-5555</a></p>
+        <p><strong>Email:</strong> <a>info@consultingbytcl.com</a></p>
       </div>
       <div class="col-xs-12 col-md-3">
-        <p>Get to Know Us!</p>
+        <strong><p>Join our Mailing List!</p></strong>
         <form>
           <div class="form-group">
             <div class="input-group">
