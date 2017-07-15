@@ -1,0 +1,14 @@
+{% extends "base.nunjucks" %}
+
+{% block title %}TCL Consulting | About{% endblock %}
+
+{% block content %}
+<section id="about">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Leveraging Extensive Cannabis Industry Experience</h1>
+      <p>To Get You Up and Going</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

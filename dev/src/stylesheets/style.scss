@@ -40,6 +40,9 @@ ul {
   background-color: transparent !important;
   border: none !important;
 }
+.parallax {
+
+}
 /* LANDING */
 #landing .jumbotron {
   min-height: 500px;
@@ -47,6 +50,7 @@ ul {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_138713071_Preview.jpeg");
   background-repeat: no-repeat;
   background-position: right;
+  background-attachment: fixed;
   background-size: cover;
   color: $anti-flash-white;
 }
@@ -154,4 +158,24 @@ ul {
 #footer .btn-default {
   background-color: $inchworm !important;
   color: #FFFFFF;
+}
+
+/* ABOUT */
+#about .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/AdobeStock_65934338_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  color: $anti-flash-white;
+}
+#about .container {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+#about .container h1, p {
+  margin-left: 50px !important;
 }
