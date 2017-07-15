@@ -1,0 +1,132 @@
+/* Colors */
+$anti-flash-white: #EDF2F4;
+$p-margin: 0 !important;
+$ralewaysemibold: 'Raleway', sans-serif;
+$inchworm: #A8E063;
+$neon-carrot: #F9A03F;
+$registration-black: #000009;
+
+
+/*the padding and border of that element no longer increase its width*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Classes */
+.section-header  {
+  text-align: left !important;
+  margin-bottom: 10px;
+  font-family: 'Metrophobic', sans-serif !important;
+}
+
+.section-header p {
+ margin-left: 0 !important;
+ font-family: $ralewaysemibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-size: 18px !important;
+}
+
+/* Landing */
+#landing .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_138713071_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  color: $anti-flash-white;
+}
+
+#landing .container {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+#landing .container h1, p {
+  margin-left: 50px !important;
+}
+
+/* Main */
+#main h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main .icon-card {
+  margin-top: 40px;
+}
+
+#main .icon-card p {
+  text-align: center;
+  margin: $p-margin;
+}
+
+#main .icon-card i {
+  color: $inchworm;
+}
+
+#main .icon-card button {
+  background-color: $neon-carrot;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  margin: 60px auto;
+}
+
+#main .icon-card button:hover {
+  background-color: #FFFFFF;
+  color: $neon-carrot;
+  border: 2px solid $neon-carrot;
+}
+
+/* Footer */
+#footer ul {
+  list-style: none;
+  text-align: left;
+}
+#footer ul:nth-child(1) {
+  margin-top: 40px !important;
+}
+#footer a {
+  text-decoration: none !important;
+  color: $registration-black !important;
+}
+#footer p {
+  margin-left: 0 !important;
+  margin-top: 10px;
+}
+#footer .col-xs-12.col-md-6:nth-child(1) p {
+  margin-top: 40px;
+}
+#footer .col-xs-12.col-md-6:nth-child(2) > p:first-child {
+  margin-top: 50px !important;
+  margin-bottom: 22px;
+}
+#footer ul:nth-child(2) a{
+  color: $neon-carrot !important;
+}
+#footer ul {
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+#secondary {
+  min-height: 500px;
+  background-color: #BBC8CA !important;
+}

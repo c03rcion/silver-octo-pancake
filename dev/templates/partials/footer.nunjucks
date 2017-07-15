@@ -1,0 +1,28 @@
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">TurnKey Labs</a></li>
+          <li><a href="">Quality</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="">Support</a></li>
+          <li>|</li>
+          <li><a href="">Privacy</a></li>
+          <li>|</li>
+          <li><a href="">Terms</a></li>
+        </ul>
+        <p>© Copyright TCL Consulting, LLC. All rights reserved.</p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <p><strong>Phone:<strong> <a>888-555-5555</a></p>
+        <p><strong>Email:<strong> <a>info@consultingbytcl.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>

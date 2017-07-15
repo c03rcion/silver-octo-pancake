@@ -1,0 +1,51 @@
+{% extends "base.nunjucks" %}
+
+{% block title %}TCL Consulting{% endblock %}
+
+{% block content %}
+<section id="landing">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Accredited Cannabis Testing Laboratories</h1>
+      <p>Turn Key solutions for entering the analytical testing cannabis industry.</p>
+    </div>
+  </div>
+</section>
+
+<section id="main">
+  <div class="container">
+    <div class="section-header">
+      <h2>Get Up and Running, Fast and Efficent</h2>
+      <p>For Quick Entry into the Cannabis Industry</p>
+    </div>
+    <div class="row">
+      <div class="icon-card col-xs-12 col-md-3">
+        <h3><i class="fa fa-building fa-4x" aria-hidden="true"></i></h3>
+        <h3>Cannabis Inustry Experience</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta interdum mi, et commodo felis elementum aliquam. Proin facilisis ligula vel ipsum blandit vehicula. Praesent sodales tristique odio, sed sollicitudin odio cursus sit amet. Sed placerat sem nec sodales congue. </p>
+        <button type="button" class="btn btn-default"><strong>About<strong></button>
+      </div>
+      <div class="icon-card col-xs-12 col-md-3">
+        <h3><i class="fa fa-flask fa-4x" aria-hidden="true"></i></h3>
+        <h3>Staffed & Functional Laboratories</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta interdum mi, et commodo felis elementum aliquam. Proin facilisis ligula vel ipsum blandit vehicula. Praesent sodales tristique odio, sed sollicitudin odio cursus sit amet. Sed placerat sem nec sodales congue. </p>
+        <button type="button" class="btn btn-default"><strong>Services<strong></button>
+      </div>
+      <div class="icon-card col-xs-12 col-md-3">
+        <h3><i class="fa fa-key fa-4x" aria-hidden="true"></i></i></h3>
+        <h3>Accredited Turn Key Laboratories</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta interdum mi, et commodo felis elementum aliquam. Proin facilisis ligula vel ipsum blandit vehicula. Praesent sodales tristique odio, sed sollicitudin odio cursus sit amet. Sed placerat sem nec sodales congue. </p>
+        <button type="button" class="btn btn-default"><strong>Turn Key Labs<strong></button>
+      </div>
+      <div class="icon-card col-xs-12 col-md-3">
+        <h3><i class="fa fa-search fa-4x" aria-hidden="true"></i></h3>
+        <h3>Quality Systems & SOPs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta interdum mi, et commodo felis elementum aliquam. Proin facilisis ligula vel ipsum blandit vehicula. Praesent sodales tristique odio, sed sollicitudin odio cursus sit amet. Sed placerat sem nec sodales congue. </p>
+        <button type="button" class="btn btn-default"><strong>Quality<strong></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="secondary"></section>
+{% endblock %}
