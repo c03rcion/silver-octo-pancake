@@ -26,6 +26,10 @@ ul {
   font-family: "Raleway", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px !important; }
 
+.thumbnail {
+  background-color: transparent !important;
+  border: none !important; }
+
 /* Landing */
 #landing .jumbotron {
   min-height: 500px;
@@ -62,15 +66,17 @@ ul {
 
 #main .icon-card button {
   background-color: #F9A03F;
+  border-radius: 10px;
   color: #FFFFFF;
   display: block;
   width: 100%;
-  margin: 60px auto; }
+  margin: 40px auto; }
 
 #main .icon-card button:hover {
   background-color: #FFFFFF;
   color: #F9A03F;
-  border: 2px solid #F9A03F; }
+  border: 2px solid #F9A03F;
+  margin-bottom: auto; }
 
 /* Footer */
 #footer ul {
@@ -82,7 +88,8 @@ ul {
 
 #footer a {
   text-decoration: none !important;
-  color: #000009 !important; }
+  color: #000009 !important;
+  font-family: "Poppins", sans-serif !important; }
 
 #footer p {
   margin-left: 0 !important;
@@ -102,10 +109,17 @@ ul {
   display: inline-block;
   margin: 10px; }
 
-#secondary {
-  min-height: 500px;
+/* SECONDARY */
+#affiliations {
+  min-height: 400px;
   background-color: #BBC8CA !important; }
 
-#secondary img {
-  height: 300px;
-  width: auto; }
+#affiliations .section-header {
+  color: #EDF2F4; }
+
+#affiliations img {
+  max-width: 240px;
+  height: auto; }
+
+#affiliations .thumbnail {
+  margin-top: 10px; }
