@@ -78,7 +78,7 @@ ul {
 #main .icon-card i {
   color: $inchworm;
 }
-#main .icon-card button {
+#main .icon-card .btn-default {
   background-color: $neon-carrot;
   border-radius: 10px;
   color: #FFFFFF;
@@ -86,7 +86,7 @@ ul {
   width: 100%;
   margin: 40px auto;
 }
-#main .icon-card button:hover {
+#main .icon-card .btn-default:hover {
   background-color: #FFFFFF;
   color: $neon-carrot;
   border: 2px solid $neon-carrot;

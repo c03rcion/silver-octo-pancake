@@ -1,8 +1,11 @@
 .navbar-default {
-  background-color: #000009 !important;
-  border-color: #000009 !important; }
+  background-color: transparent !important;
+  border-color: transparent !important;
+  letter-spacing: 3px;
+  font-size: 16px; }
   .navbar-default .navbar-brand {
-    color: #ffffff !important; }
+    color: #ffffff !important;
+    font-size: 24px; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
       color: #a8e063 !important; }
   .navbar-default .navbar-text {

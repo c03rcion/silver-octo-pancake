@@ -65,7 +65,7 @@ ul {
 #main .icon-card i {
   color: #A8E063; }
 
-#main .icon-card button {
+#main .icon-card .btn-default {
   background-color: #F9A03F;
   border-radius: 10px;
   color: #FFFFFF;
@@ -73,7 +73,7 @@ ul {
   width: 100%;
   margin: 40px auto; }
 
-#main .icon-card button:hover {
+#main .icon-card .btn-default:hover {
   background-color: #FFFFFF;
   color: #F9A03F;
   border: 2px solid #F9A03F;
