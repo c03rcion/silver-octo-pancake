@@ -47,5 +47,15 @@
   </div>
 </section>
 
-<section id="secondary"></section>
+<section id="secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="build/logos/CCIA-Logo.png">
+        <img src="build/logos/ISO-17025.png">
+        <img src="build/logos/OCBCLogo.png">
+      </div>
+    </div>
+  </div>
+</section>
 {% endblock %}
