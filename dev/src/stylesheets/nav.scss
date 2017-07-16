@@ -3,15 +3,19 @@ $bgHighlight    : #000009;
 $colDefault     : #ffffff;
 $colHighlight   : #a8e063;
 $dropDown       : false;
+.affix.navbar-default{
+ background-color: #000009 !important;
+ }
 .navbar-default {
   background-color: transparent !important;
   border-color: transparent !important;
   letter-spacing: 3px;
   font-size: 16px;
-
+  min-height: 70px;
   .navbar-brand {
     color: $colDefault !important;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bold;
     &:hover, &:focus {
       color: $colHighlight !important; }}
   .navbar-text {
@@ -21,7 +25,8 @@ $dropDown       : false;
       > a {
         color: $colDefault !important;
         &:hover,  &:focus {
-          color: $colHighlight !important; }}
+          color: $colHighlight !important;
+        }}
       @if $dropDown {
         > .dropdown-menu {
           background-color: $bgDefault !important;
@@ -49,7 +54,7 @@ $dropDown       : false;
   .navbar-toggle {
     border-color: transparent !important;
     &:hover, &:focus {
-      background-color: $bgHighlight !important; }
+      background-color: transparent !important; }
     .icon-bar {
       background-color: $colDefault !important; }}
   .navbar-collapse,

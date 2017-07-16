@@ -82,7 +82,7 @@ ul {
 /* AFFILIATIONS */
 #affiliations {
   min-height: 400px;
-  background-color: #B1C1C0 !important; }
+  background-color: #C4C5C7 !important; }
 
 #affiliations .section-header {
   color: #EDF2F4; }
@@ -160,3 +160,68 @@ ul {
 
 #about .container h1, p {
   margin-left: 50px !important; }
+
+/* SERVICES */
+#services .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_99643168_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #EDF2F4; }
+
+#services .container {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; }
+
+#services .container h1, p {
+  margin-left: 50px !important; }
+
+/* SERVICES-MAIN */
+#services-main .section-header {
+  text-align: left !important;
+  margin-bottom: 10px;
+  font-family: 'Metrophobic', sans-serif !important; }
+
+#services-main h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+#services-main .icon-card {
+  margin-top: 40px; }
+
+#services-main .icon-card p {
+  text-align: center;
+  margin: 0 !important; }
+
+#services-main .icon-card i {
+  color: #A8E063; }
+
+#services-main .icon-card .btn-default {
+  background-color: #F9A03F;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  margin: 40px auto; }
+
+#services-main .icon-card .btn-default:hover {
+  background-color: #FFFFFF;
+  color: #F9A03F;
+  border: 2px solid #F9A03F;
+  margin-bottom: auto; }
+
+/* SERVICES-SECONDARY */
+#services-secondary {
+  background-color: #C4C5C7; }
+
+#services-secondary p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important; }
+
+#services-secondary .section-header > h2 {
+  margin-top: 40px !important; }
