@@ -225,3 +225,13 @@ ul {
 
 #services-secondary .section-header > h2 {
   margin-top: 40px !important; }
+
+/* SERVICES-THUMBS */
+#services-thumbs .row {
+  margin-top: 40px; }
+
+#services-thumbs .caption {
+  background-color: #F1F7ED; }
+
+#services-thumbs .thumbnail h3 {
+  text-align: center; }
