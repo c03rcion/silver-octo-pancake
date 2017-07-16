@@ -53,7 +53,7 @@ ul {
   line-height: 500px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_138713071_Preview.jpeg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
   color: $anti-flash-white;
@@ -260,6 +260,22 @@ ul {
   #services-thumbs .caption {
     background-color: #F1F7ED;
   }
+  #services-thumbs .thumbnail  {
+    position: relative;
+  }
+  #services-thumbs .thumbnail img  {
+    display: block;
+  }
+
+#services-thumbs .thumbnail:hover  {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
   #services-thumbs .thumbnail h3 {
     text-align: center;
+  }
+  #services-thumbs .thumbnail p {
+    margin: $p-margin;
+    text-align: left;
   }
