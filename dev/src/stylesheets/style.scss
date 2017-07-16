@@ -32,7 +32,7 @@ ul {
 /* CLASSES */
 .section-header  {
   text-align: left !important;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   font-family: 'Metrophobic', sans-serif !important;
 }
 .section-header p {
@@ -58,7 +58,7 @@ ul {
   background-size: cover;
   color: $anti-flash-white;
 }
-#landing .container {
+#landing .container:nth-child(1) {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
@@ -175,14 +175,19 @@ ul {
   background-size: cover;
   color: $anti-flash-white;
 }
-#about .container {
+#about .container:nth-child(1) {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
 }
-#about .container h1, p {
+#about .container:nth-child(1) h1, p {
   margin-left: 50px !important;
 }
+
+#about-main p {
+  margin-left: 0 !important;
+}
+
 
 /* SERVICES */
 #services .jumbotron {
@@ -196,7 +201,7 @@ ul {
   color: $anti-flash-white;
 }
 
-  #services .container {
+  #services .container:nth-child(1) {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
@@ -206,7 +211,7 @@ ul {
   }
 
   /* SERVICES-MAIN */
-  #services-main .section-header {
+  #services-main .section-header h2, p {
     text-align: left !important;
     margin-bottom: 10px;
     font-family: 'Metrophobic', sans-serif !important;
