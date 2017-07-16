@@ -1,6 +1,6 @@
 {% extends "base.nunjucks" %}
 
-{% block title %}TCL Consulting | About{% endblock %}
+{% block title %}TCL Consulting | Services{% endblock %}
 
 {% block content %}
 <section id="services">

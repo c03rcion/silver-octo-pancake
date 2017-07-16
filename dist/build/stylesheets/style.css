@@ -46,7 +46,7 @@ ul {
   vertical-align: middle;
   line-height: normal; }
 
-#landing .container h1, p {
+#landing .container:nth-child(1) h1, p {
   margin-left: 50px !important; }
 
 /* MAIN */
@@ -180,7 +180,7 @@ ul {
   vertical-align: middle;
   line-height: normal; }
 
-#services .container h1, p {
+#services .container:nth-child(1) h1, p {
   margin-left: 50px !important; }
 
 /* SERVICES-MAIN */
@@ -251,3 +251,25 @@ ul {
 #services-thumbs .thumbnail p {
   margin: 0 !important;
   text-align: left; }
+
+/* CONTACT */
+#contact .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: url("../images/AdobeStock_138485966_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #EDF2F4; }
+
+#contact .container:nth-child(1) {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; }
+
+#contact .container:nth-child(1) h1, p {
+  margin-left: 50px !important; }
+
+#contact-main p {
+  margin-left: 0px !important; }
