@@ -11,6 +11,10 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif !important; }
 
+html {
+  height: 100%;
+  width: 100%; }
+
 ul {
   margin: 0 !important;
   padding: 0 !important; }
@@ -303,4 +307,28 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+    color: #EDF2F4; }
+  #about .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/AdobeStock_65934338_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: #EDF2F4; }
+  #services .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_99643168_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: #EDF2F4; }
+  #contact .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: url("../images/AdobeStock_138485966_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #EDF2F4; } }
