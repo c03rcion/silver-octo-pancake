@@ -44,9 +44,6 @@ ul {
   background-color: transparent !important;
   border: none !important;
 }
-.parallax {
-
-}
 /* LANDING */
 #landing .jumbotron {
   min-height: 500px;
@@ -305,3 +302,26 @@ ul {
   #contact-main p {
     margin-left: 0px !important;
   }
+
+  /* CAROUSEL */
+.carousel img{
+    margin: 0 auto;
+    // width: 100%;
+  }
+.carousel-inner > .item {
+    position: relative;
+    max-height: 600px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption p {
+  margin-left: 0 !important;
+}
+
+#carousel article p {
+  margin-left: 0 !important;
+  margin-bottom: 40px;
+}
