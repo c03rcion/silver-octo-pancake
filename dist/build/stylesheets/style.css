@@ -298,6 +298,20 @@ ul {
   margin-left: 0 !important;
   margin-bottom: 40px; }
 
+#carousel article .btn-default {
+  background-color: #F9A03F;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  margin: 40px auto; }
+
+#carousel article .btn-default:hover {
+  background-color: #FFFFFF;
+  color: #F9A03F;
+  border: 2px solid #F9A03F;
+  margin-bottom: 38px; }
+
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
   #landing .jumbotron {
