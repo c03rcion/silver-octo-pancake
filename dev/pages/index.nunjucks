@@ -69,6 +69,7 @@
         <div class="carousel-caption">
           <h3>Setup in the State of Your Choice</h3>
           <p></p>
+          <button class="btn btn-default">Button</button>
         </div>
       </div>
       <div class="item">

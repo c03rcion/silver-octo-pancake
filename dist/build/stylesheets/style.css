@@ -293,3 +293,14 @@ ul {
 #carousel article p {
   margin-left: 0 !important;
   margin-bottom: 40px; }
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  #landing .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_138713071_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    color: #EDF2F4; } }
