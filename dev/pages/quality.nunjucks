@@ -1,0 +1,14 @@
+{% extends "base.nunjucks" %}
+
+{% block title %}TCL Consulting | About{% endblock %}
+
+{% block content %}
+<section id="quality">
+  <div class="jumbotron">
+    <div class="container">
+      <h1></h1>
+      <p></p>
+    </div>
+  </div>
+</section>
+{% endblock %}
