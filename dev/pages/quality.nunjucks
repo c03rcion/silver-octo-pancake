@@ -18,15 +18,28 @@
       <p>Quality Systems Are an Integral Part of Running a Compliant Lab</p>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, sem a vulputate commodo, sem velit suscipit turpis, a laoreet lectus felis ac leo. Donec quis volutpat orci, in tincidunt turpis. Sed sit amet enim sit amet enim semper vulputate vitae vel justo. Nunc lobortis bibendum rhoncus. Phasellus ut purus id neque lacinia venenatis aliquam non sapien. Donec ultricies justo nec sem vulputate feugiat. Nam fringilla blandit mauris a congue. Nam odio eros, eleifend vel mollis pretium, faucibus vel nibh.
-        </p>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <img src="build/images/AdobeStock_145830799_Preview.jpeg" class="img-responsive img-rounded">
-      </div>
-    </div>
-  </div>
+      <article>
+        <div class="col-xs-12 col-md-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, sem a vulputate commodo, sem velit suscipit turpis, a laoreet lectus felis ac leo. Donec quis volutpat orci, in tincidunt turpis. Sed sit amet enim sit amet enim semper vulputate vitae vel justo. Nunc lobortis bibendum rhoncus. Phasellus ut purus id neque lacinia venenatis aliquam non sapien. Donec ultricies justo nec sem vulputate feugiat. Nam fringilla blandit mauris a congue. Nam odio eros, eleifend vel mollis pretium, faucibus vel nibh.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, sem a vulputate commodo, sem velit suscipit turpis, a laoreet lectus felis ac leo. Donec quis volutpat orci, in tincidunt turpis. Sed sit amet enim sit amet enim semper vulputate vitae vel justo. Nunc lobortis bibendum rhoncus. Phasellus ut purus id neque lacinia venenatis aliquam non sapien. Donec ultricies justo nec sem vulputate feugiat. Nam fringilla blandit mauris a congue. Nam odio eros, eleifend vel mollis pretium, faucibus vel nibh.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <ul>
+            <li><a href="">Quality Manual System</a></li>
+            <li><a href="">Standard Operating Procedures</a></li>
+            <li><a href="">Validated Test Methods</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="build/images/AdobeStock_145830799_Preview.jpeg" class="img-responsive img-rounded">
+        </div>
+      </article>
+    </div> <!--/.row-->
+  </div> <!--/.container-->
 </section>
 
 
