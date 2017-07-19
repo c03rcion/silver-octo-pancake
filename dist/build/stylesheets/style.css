@@ -324,6 +324,14 @@ ul {
   background-size: cover;
   color: #EDF2F4; }
 
+#quality .container:nth-child(1) {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; }
+
+#quality .container:nth-child(1) h1, p {
+  margin-left: 50px !important; }
+
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
   #landing .jumbotron {

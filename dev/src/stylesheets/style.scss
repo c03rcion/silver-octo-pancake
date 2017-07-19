@@ -356,6 +356,14 @@ ul {
   background-size: cover;
   color: $anti-flash-white;
 }
+#quality .container:nth-child(1) {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+#quality .container:nth-child(1) h1, p {
+  margin-left: 50px !important;
+}
 
 
 /* MEDIA QUERIES */
