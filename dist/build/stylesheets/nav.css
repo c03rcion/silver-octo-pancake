@@ -1,6 +1,5 @@
 .affix.navbar-default {
-  background-color: #000009 !important;
-  opacity: 0.9; }
+  background: rgba(0, 0, 9, 0.9) !important; }
 
 .navbar-default {
   background-color: transparent !important;
