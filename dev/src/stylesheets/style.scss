@@ -189,6 +189,20 @@ ul {
 #about-main p {
   margin-left: 0 !important;
 }
+#about-main article .btn-default {
+  background-color: $neon-carrot;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  margin: 40px auto;
+}
+#about-main article .btn-default:hover {
+  background-color: #FFFFFF;
+  color: $neon-carrot;
+  border: 2px solid $neon-carrot;
+  margin-bottom: 38px;
+}
 
 
 /* SERVICES */
@@ -311,7 +325,7 @@ ul {
   /* CAROUSEL */
 .carousel img{
     margin: 0 auto;
-    // width: 100%;
+    width: 100%;
   }
 .carousel-inner > .item {
     position: relative;
@@ -330,20 +344,19 @@ ul {
   margin-left: 0 !important;
   margin-bottom: 40px;
 }
-#carousel article .btn-default {
-  background-color: $neon-carrot;
-  border-radius: 10px;
-  color: #FFFFFF;
-  display: block;
-  width: 100%;
-  margin: 40px auto;
+
+/* QUALITY */
+#quality .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_142364612_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: $anti-flash-white;
 }
-#carousel article .btn-default:hover {
-  background-color: #FFFFFF;
-  color: $neon-carrot;
-  border: 2px solid $neon-carrot;
-  margin-bottom: 38px;
-}
+
 
 /* MEDIA QUERIES */
 @media(max-width: 768px){
@@ -378,6 +391,15 @@ ul {
     min-height: 500px;
     line-height: 500px;
     background: url('../images/AdobeStock_138485966_Preview.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $anti-flash-white;
+  }
+  #quality .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_142364612_Preview.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

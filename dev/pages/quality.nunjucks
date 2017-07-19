@@ -1,14 +1,29 @@
 {% extends "base.nunjucks" %}
 
-{% block title %}TCL Consulting | About{% endblock %}
+{% block title %}TCL Consulting | Quality{% endblock %}
 
 {% block content %}
 <section id="quality">
   <div class="jumbotron">
     <div class="container">
-      <h1></h1>
-      <p></p>
+      <h1>Quality Systems</h1>
+      <p>To keep your lab compliant with all state regulations and accrediation bodies.</p>
+    </div> <!--/.container-->
+  </div> <!--/.jumbotron-->
+</section>
+<section id="quality-main">
+  <div class="container">
+    <div class="section-header">
+      <h2>Say What You Do, Do What You Say</h2>
+      <p>Quality systems are an integral part of running a compliant lab</p>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="build/images/AdobeStock_145830799_Preview.jpeg" class="img-responsive">
+      </div>
     </div>
   </div>
 </section>
+
+
 {% endblock %}
