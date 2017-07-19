@@ -332,6 +332,9 @@ ul {
 #quality .container:nth-child(1) h1, p {
   margin-left: 50px !important; }
 
+#quality-main p {
+  margin-left: 0px !important; }
+
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
   #landing .jumbotron {

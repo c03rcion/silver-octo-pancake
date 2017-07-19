@@ -364,6 +364,9 @@ ul {
 #quality .container:nth-child(1) h1, p {
   margin-left: 50px !important;
 }
+#quality-main p {
+  margin-left: 0px !important;
+}
 
 
 /* MEDIA QUERIES */
@@ -413,4 +416,5 @@ ul {
     background-size: cover;
     color: $anti-flash-white;
   }
+
 }
