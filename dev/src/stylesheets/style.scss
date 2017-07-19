@@ -10,6 +10,8 @@ $light-grey: #CFDBD5;
 $beige: #EBF5DF;
 $egg-shell: #EFECCA;
 $lavendar-gray: #C4C5C7;
+$forest-green: #228B22;
+$electric-blue: #39BAAE;
 
 
 /*the padding and border of that element no longer increase its width*/
@@ -68,6 +70,9 @@ ul {
 #landing .container:nth-child(1) h1, p {
   margin-left: 50px !important;
 }
+#landing .container:nth-child(1) p {
+  font-size: 22px;
+}
 /* MAIN */
 #main h3 {
   text-align: center;
@@ -82,10 +87,10 @@ ul {
   margin: $p-margin;
 }
 #main .icon-card i {
-  color: $inchworm;
+  color: $forest-green;
 }
 #main .icon-card .btn-default {
-  background-color: $neon-carrot;
+  background-color: $electric-blue;
   border-radius: 10px;
   color: #FFFFFF;
   display: block;
@@ -94,10 +99,50 @@ ul {
 }
 #main .icon-card .btn-default:hover {
   background-color: #FFFFFF;
-  color: $neon-carrot;
-  border: 2px solid $neon-carrot;
+  color: $electric-blue;
+  border: 2px solid $electric-blue;
   margin-bottom: auto;
 }
+
+/* CAROUSEL */
+.carousel img{
+  margin: 0 auto;
+  width: 100%;
+}
+.carousel-inner > .item {
+  position: relative;
+  max-height: 600px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption p {
+margin-left: 0 !important;
+}
+#carousel article p {
+margin-left: 0 !important;
+margin-bottom: 40px;
+}
+#carousel article .btn-default {
+background-color: $electric-blue;
+border-radius: 10px;
+color: #FFFFFF;
+display: block;
+width: 100%;
+margin: 40px auto;
+}
+#carousel article .btn-default:hover {
+background-color: #FFFFFF;
+color: $electric-blue;
+border: 2px solid $electric-blue;
+margin-bottom: aut !important;
+}
+#carousel article .section-header {
+  margin-top: 40px;
+}
+
 
 /* AFFILIATIONS */
 #affiliations {
@@ -130,7 +175,7 @@ ul {
   margin-top: 40px !important;
 }
 #footer ul:nth-child(2) a{
-  color: $neon-carrot !important;
+  color: $electric-blue !important;
 }
 #footer ul:nth-child(3) {
   margin-top: 10px !important;
@@ -162,7 +207,7 @@ ul {
   margin-bottom: 10px !important;
 }
 #footer .btn-default {
-  background-color: $inchworm !important;
+  background-color: $electric-blue !important;
   color: #FFFFFF;
 }
 
@@ -185,6 +230,9 @@ ul {
 #about .container:nth-child(1) h1, p {
   margin-left: 50px !important;
 }
+#about .container:nth-child(1) p {
+  font-size: 22px;
+}
 
 #about-main p {
   margin-left: 0 !important;
@@ -203,6 +251,7 @@ ul {
   border: 2px solid $neon-carrot;
   margin-bottom: 38px;
 }
+
 
 
 /* SERVICES */
@@ -225,6 +274,9 @@ ul {
   #services .container:nth-child(1) h1, p {
     margin-left: 50px !important;
   }
+  #services .container:nth-child(1) p {
+    font-size: 22px;
+  }
 
   /* SERVICES-MAIN */
   #services-main .section-header h2, p {
@@ -245,10 +297,10 @@ ul {
     margin: $p-margin;
   }
   #services-main .icon-card i {
-    color: $inchworm;
+    color: $forest-green;
   }
   #services-main .icon-card .btn-default {
-    background-color: $neon-carrot;
+    background-color: $electric-blue;
     border-radius: 10px;
     color: #FFFFFF;
     display: block;
@@ -257,8 +309,8 @@ ul {
   }
   #services-main .icon-card .btn-default:hover {
     background-color: #FFFFFF;
-    color: $neon-carrot;
-    border: 2px solid $neon-carrot;
+    color: $electric-blue;
+    border: 2px solid $electric-blue;
     margin-bottom: auto;
   }
 
@@ -318,32 +370,14 @@ ul {
   #contact .container:nth-child(1) h1, p {
     margin-left: 50px !important;
   }
+  #contact .container:nth-child(1) p {
+    font-size: 22px;
+  }
   #contact-main p {
     margin-left: 0px !important;
   }
 
-  /* CAROUSEL */
-.carousel img{
-    margin: 0 auto;
-    width: 100%;
-  }
-.carousel-inner > .item {
-    position: relative;
-    max-height: 600px;
-}
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.carousel-caption p {
-  margin-left: 0 !important;
-}
 
-#carousel article p {
-  margin-left: 0 !important;
-  margin-bottom: 40px;
-}
 
 /* QUALITY */
 #quality .jumbotron {
@@ -363,6 +397,9 @@ ul {
 }
 #quality .container:nth-child(1) h1, p {
   margin-left: 50px !important;
+}
+#quality .container:nth-child(1) p {
+  font-size: 22px;
 }
 #quality-main p {
   margin-left: 0px !important;
