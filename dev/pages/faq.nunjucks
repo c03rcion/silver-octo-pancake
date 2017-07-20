@@ -1,0 +1,21 @@
+{% extends "base.nunjucks" %}
+
+{% block title %}TCL Consulting | Services{% endblock %}
+
+{% block header %}
+{% import "macros/nav-macro.nunjucks" as nav %}
+{{nav.active('faq')}}
+{% endblock %}
+
+{% block content %}
+<section id="faq">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Frequently Asked Questions</h1>
+      <p>Most Common Questions Our Clients Have</p>
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}
