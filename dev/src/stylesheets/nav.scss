@@ -46,7 +46,7 @@ $dropDown       : false;
     > .active {
       > a, > a:hover, > a:focus {
         color: $colHighlight !important;
-        background-color: $bgHighlight !important; }}
+        background-color: transparent !important; }}
     > .open {
       > a, > a:hover, > a:focus {
         color: $colHighlight !important;
