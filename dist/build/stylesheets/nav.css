@@ -1,3 +1,6 @@
+#myNav .current a {
+  color: green; }
+
 .affix.navbar-default {
   background: rgba(0, 0, 9, 0.9) !important; }
 

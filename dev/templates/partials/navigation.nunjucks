@@ -11,7 +11,7 @@
     </div> <!--/.navbar-header-->
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="about.html">About</a></li>
+        <li class="current"><a href="about.html" class="active">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="quality.html">Quality</a></li>
         <li><a href="about.html">FAQ</a></li>

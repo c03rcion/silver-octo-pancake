@@ -2,6 +2,11 @@
 
 {% block title %}TCL Consulting | Quality{% endblock %}
 
+{% block header %}
+{% import "macros/nav-macro.nunjucks" as nav %}
+{{nav.active('quality')}}
+{% endblock %}
+
 {% block content %}
 <section id="quality">
   <div class="jumbotron">

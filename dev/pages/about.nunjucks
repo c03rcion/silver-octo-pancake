@@ -2,6 +2,11 @@
 
 {% block title %}TCL Consulting | About{% endblock %}
 
+{% block header %}
+{% import "macros/nav-macro.nunjucks" as nav %}
+{{nav.active('about')}}
+{% endblock %}
+
 {% block content %}
 <section id="about">
   <div class="jumbotron">

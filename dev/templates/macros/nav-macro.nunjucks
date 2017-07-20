@@ -12,7 +12,7 @@
     </div> <!--/.navbar-header-->
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="{%if activePage == 'about' %} current {% endif %}"><a href="about.html">About</a></li>
+        <li class="{%if activePage == 'about' %} current {% endif %}"><a class="active"  href="about.html">About</a></li>
         <li class="{%if activePage == 'services' %} current {% endif %}"><a href="services.html">Services</a></li>
         <li class="{%if activePage == 'quality' %} current {% endif %}"><a href="quality.html">Quality</a></li>
         <li class="{%if activePage == 'about' %} current {% endif %}"><a href="about.html">FAQ</a></li>
