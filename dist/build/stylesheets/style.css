@@ -62,9 +62,6 @@ ul {
   margin-left: auto;
   margin-right: auto; }
 
-#main .icon-card {
-  margin-top: 40px; }
-
 #main .icon-card p {
   text-align: center;
   margin: 0 !important; }
@@ -118,17 +115,15 @@ ul {
 /* AFFILIATIONS */
 #affiliations {
   min-height: 400px;
-  background-color: #C4C5C7 !important; }
+  background-color: #F3F3F7 !important; }
 
-#affiliations .section-header {
-  color: #EDF2F4; }
+#affiliations .row {
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 #affiliations img {
   max-width: 240px;
   height: auto; }
-
-#affiliations .thumbnail {
-  margin-top: 10px; }
 
 /* FOOTER */
 #footer ul {

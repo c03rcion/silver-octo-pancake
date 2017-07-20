@@ -12,6 +12,7 @@ $egg-shell: #EFECCA;
 $lavendar-gray: #C4C5C7;
 $forest-green: #228B22;
 $electric-blue: #39BAAE;
+$cool-grey: #F3F3F7;
 
 /*the padding and border of that element no longer increase its width*/
 * {
@@ -78,9 +79,6 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-#main .icon-card {
-  margin-top: 40px;
-}
 #main .icon-card p {
   text-align: center;
   margin: $p-margin;
@@ -135,18 +133,18 @@ margin: 40px auto;
 /* AFFILIATIONS */
 #affiliations {
   min-height: 400px;
-  background-color: $lavendar-gray !important;
+  background-color: $cool-grey !important;
 }
-#affiliations .section-header {
-  color: $anti-flash-white;
+#affiliations .row {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
+
 #affiliations img {
   max-width: 240px;
   height: auto;
 }
-#affiliations .thumbnail {
-  margin-top: 10px;
-}
+
 
 /* FOOTER */
 #footer ul {
@@ -305,7 +303,7 @@ margin: 40px auto;
 
   /* SERVICES-SECONDARY */
   #services-secondary {
-    background-color: #F3F3F7;
+    background-color: $cool-grey;
   }
   #services-secondary p {
     margin-left: 0 !important;
@@ -369,6 +367,9 @@ margin: 40px auto;
 
 
 /* QUALITY */
+#quality {
+
+}
 #quality .jumbotron {
   min-height: 500px;
   line-height: 500px;
