@@ -15,7 +15,7 @@
         <li class="{%if activePage == 'about' %} active {% endif %}"><a  href="about.html">About</a></li>
         <li class="{%if activePage == 'services' %} active {% endif %}"><a href="services.html">Services</a></li>
         <li class="{%if activePage == 'quality' %} active {% endif %}"><a href="quality.html">Quality</a></li>
-        <li class="{%if activePage == 'about' %} active {% endif %}"><a href="faq.html">FAQ</a></li>
+        <li class="{%if activePage == 'faq' %} active {% endif %}"><a href="faq.html">FAQ</a></li>
         <li class="{%if activePage == 'contact' %} active {% endif %}"><a href="contact.html">Contact</a></li>
       </ul>
     </div> <!--/.collapse navbar-collapse-->

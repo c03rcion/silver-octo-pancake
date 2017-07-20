@@ -40,19 +40,44 @@
 <section id="quality-features">
   <div class="container">
     <div class="row">
-      <article>
+      <articl class="feature">
         <div class="col-xs-12 col-md-6">
           <img src="build/images/AdobeStock_145830799_Preview.jpeg" class="img-responsive img-rounded">
         </div>
         <div class="col-xs-12 col-md-6">
-          <ul>
-            <li><h3>Quality Management Systems</h3></li>
-            <li><h3>Standard Operating Procures</h3></li>
-            <li><h3>Test Methods</h3></li>
-          </ul>
+          <h3>Quality Management System</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, sem a vulputate commodo, sem velit suscipit turpis, a laoreet lectus felis ac leo. Donec quis volutpat orci, in tincidunt turpis. Sed sit amet enim sit amet enim semper vulputate vitae vel justo. Nunc lobortis bibendum rhoncus. Phasellus ut purus id neque lacinia venenatis aliquam non sapien. Donec ultricies justo nec sem vulputate feugiat. Nam fringilla blandit mauris a congue. Nam odio eros, eleifend vel mollis pretium, faucibus vel nibh.
+          </p>
         </div>
+        <hr>
       </article>
-    </div>
+    </div> <!--/.row-->
+    <div class="row">
+      <article class="feature">
+        <div class="col-xs-12 col-md-6">
+          <h3>Standard Operating Procedures</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, sem a vulputate commodo, sem velit suscipit turpis, a laoreet lectus felis ac leo. Donec quis volutpat orci, in tincidunt turpis. Sed sit amet enim sit amet enim semper vulputate vitae vel justo. Nunc lobortis bibendum rhoncus. Phasellus ut purus id neque lacinia venenatis aliquam non sapien. Donec ultricies justo nec sem vulputate feugiat. Nam fringilla blandit mauris a congue. Nam odio eros, eleifend vel mollis pretium, faucibus vel nibh.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="build/images/AdobeStock_145830799_Preview.jpeg" class="img-responsive img-rounded">
+        </div>
+        <hr>
+      </article>
+    </div> <!--/.row-->
+    <div class="row">
+      <article class="feature">
+        <div class="col-xs-12 col-md-6">
+          <img src="build/images/AdobeStock_145830799_Preview.jpeg" class="img-responsive img-rounded">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h3>Validated Test Methods</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, sem a vulputate commodo, sem velit suscipit turpis, a laoreet lectus felis ac leo. Donec quis volutpat orci, in tincidunt turpis. Sed sit amet enim sit amet enim semper vulputate vitae vel justo. Nunc lobortis bibendum rhoncus. Phasellus ut purus id neque lacinia venenatis aliquam non sapien. Donec ultricies justo nec sem vulputate feugiat. Nam fringilla blandit mauris a congue. Nam odio eros, eleifend vel mollis pretium, faucibus vel nibh.
+          </p>
+        </div>
+        <hr>
+      </article>
+    </div> <!--/.row-->
   </div>
 </section>
 
