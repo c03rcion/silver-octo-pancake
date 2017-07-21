@@ -60,4 +60,17 @@
     </div>
   </div> <!--/.container-->
 </section>
+
+<section id="about-team">
+  <!-- team thumbnail photos -->
+  <div class="container">
+    <div class="section-header">
+      <h2>Meet the Team</h2>
+      <p>To get you up and running in a timely fashion, compliant with all requirements of state rules and accrediation protocols.</p>
+    </div>
+    <div class="row">
+      {% include "partials/about-team.nunjucks" %}
+    </div>
+  </div>
+</div>
 {% endblock %}
