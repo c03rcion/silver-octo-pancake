@@ -1,29 +1,21 @@
-<div class="row">
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
-      <img src="http://via.placeholder.com/300x300" class="img-responsive">
+      <img src="build/images/marshall.png" class="img-responsive">
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
-      <img src="http://via.placeholder.com/300x300" class="img-responsive">
+      <img src="build/images/laura1.png" class="img-responsive">
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
-      <img src="http://via.placeholder.com/300x300" class="img-responsive">
-    </div>
-  </div>
-</div> <!--/.row-->
-<div class="row">
-  <div class="col-xs-12 col-md-4">
-    <div class="thumbnail">
-      <img src="" class="img-responsive">
+      <img src="build/images/andrea.jpg" class="img-responsive">
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
-      <img src="" class="img-responsive">
+      <img src="build/images/lori.png" class="img-responsive">
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
@@ -31,4 +23,8 @@
       <img src="" class="img-responsive">
     </div>
   </div>
-</div> <!--/.row-->
+  <div class="col-xs-12 col-md-4">
+    <div class="thumbnail">
+      <img src="" class="img-responsive">
+    </div>
+  </div>
