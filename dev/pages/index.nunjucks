@@ -24,30 +24,7 @@
       <p>For Quick Entry into the Cannabis Industry</p>
     </div>
     <div class="row">
-      <div class="icon-card col-xs-12 col-md-3">
-        <h3><i class="fa fa-bolt fa-4x" aria-hidden="true"></i></h3>
-        <h3>Cannabis Industry Experience</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta interdum mi, et commodo felis elementum aliquam. Proin facilisis ligula vel ipsum blandit vehicula. Praesent sodales tristique odio, sed sollicitudin odio cursus sit amet. Sed placerat sem nec sodales congue. </p>
-        <a href="about.html" class="btn btn-default"><strong>About</strong></a>
-      </div>
-      <div class="icon-card col-xs-12 col-md-3">
-        <h3><i class="fa fa-cog fa-4x" aria-hidden="true"></i></h3>
-        <h3>Staffed & Functional Laboratories</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta interdum mi, et commodo felis elementum aliquam. Proin facilisis ligula vel ipsum blandit vehicula. Praesent sodales tristique odio, sed sollicitudin odio cursus sit amet. Sed placerat sem nec sodales congue. </p>
-        <a href="services.html" class="btn btn-default"><strong>Services</strong></a>
-      </div>
-      <div class="icon-card col-xs-12 col-md-3">
-        <h3><i class="fa fa-key fa-4x" aria-hidden="true"></i></i></h3>
-        <h3>Accredited Turn Key Laboratories</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta interdum mi, et commodo felis elementum aliquam. Proin facilisis ligula vel ipsum blandit vehicula. Praesent sodales tristique odio, sed sollicitudin odio cursus sit amet. Sed placerat sem nec sodales congue. </p>
-        <a href="turnkey.html" class="btn btn-default"><strong>Turn Key Labs</strong></a>
-      </div>
-      <div class="icon-card col-xs-12 col-md-3">
-        <h3><i class="fa fa-search fa-4x" aria-hidden="true"></i></h3>
-        <h3>Quality Systems & SOPs</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta interdum mi, et commodo felis elementum aliquam. Proin facilisis ligula vel ipsum blandit vehicula. Praesent sodales tristique odio, sed sollicitudin odio cursus sit amet. Sed placerat sem nec sodales congue. </p>
-        <a href="quality.html" class="btn btn-default"><strong>Quality</strong></a>
-      </div>
+      {% include "partials/icon-card.nunjucks" %}
     </div>
   </div>
 </section>
