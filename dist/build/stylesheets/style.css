@@ -213,6 +213,19 @@ ul {
   border: 2px solid #39BAAE;
   margin-bottom: 38px; }
 
+#about-secondary {
+  background-color: #F3F3F7; }
+
+#about-secondary p {
+  margin-left: 0 !important; }
+
+#about-secondary p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important; }
+
+#about-secondary .section-header > h2 {
+  margin-top: 40px !important; }
+
 /* SERVICES */
 #services .jumbotron {
   min-height: 500px;

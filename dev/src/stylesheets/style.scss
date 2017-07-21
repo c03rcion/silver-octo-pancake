@@ -236,6 +236,19 @@ margin: 40px auto;
   border: 2px solid $electric-blue;
   margin-bottom: 38px;
 }
+#about-secondary {
+  background-color: $cool-grey;
+}
+#about-secondary  p {
+  margin-left: 0 !important;
+}
+#about-secondary p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important;
+}
+#about-secondary .section-header > h2 {
+  margin-top: 40px !important;
+}
 
 
 
