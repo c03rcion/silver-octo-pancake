@@ -25,29 +25,7 @@
       <p>onec quis urna at ante volutpat varius vel vitae metus.</p>
     </div>
     <div class="row">
-      <article>
-        <div class="col-xs-12 col-md-6">
-          <p>onec quis urna at ante volutpat varius vel vitae metus. Nullam eget porttitor nisi. Aenean sapien ligula, porta vel lectus sed, hendrerit faucibus sapien. Curabitur et volutpat ligula. Ut vitae ultricies magna, et sagittis tellus. Sed vitae vestibulum sapien, sed ullamcorper risus. Donec ut scelerisque ex. Pellentesque eget pharetra quam. Integer eget leo ex. </p>
-        </div>
-      </article>
-      <div class="col-xs-12 col-md-6">
-        <form action="" method="POST">
-          <div class="form-group">
-            <label for="nameInput">Name</label>
-            <input type="text" name="name" class="form-control" id="nameInput" placeholder="Name">
-          </div> <!--/.form-group-->
-          <div class="form-group">
-            <label for="emailInput">Email</label>
-            <input type="email" name="email" class="form-control" id="emailInput" placeholder="Email">
-          </div> <!--/.form-group-->
-          <div class="form-group">
-            <label form="messageInput">Message</label>
-            <textarea class="form-control" rows="7" name="message" id="messageInput" placeholder="Enter your message here">
-            </textarea>
-          </div> <!--/.form-group-->
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-      </div>
+      {% include "partials/contact-form.nunjucks" %}
     </div> <!--/.row-->
   </div> <!--/.container-->
 </section>
