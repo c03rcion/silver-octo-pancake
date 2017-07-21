@@ -43,7 +43,7 @@ ul {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  color: #EDF2F4; }
+  color: #FFFFFF; }
 
 #landing .container:nth-child(1) {
   display: inline-block;
@@ -183,7 +183,7 @@ ul {
   background-position: right;
   background-attachment: fixed;
   background-size: cover;
-  color: #EDF2F4; }
+  color: #FFFFFF; }
 
 #about .container:nth-child(1) {
   display: inline-block;
@@ -222,7 +222,7 @@ ul {
   background-position: right;
   background-attachment: fixed;
   background-size: cover;
-  color: #EDF2F4; }
+  color: #FFFFFF; }
 
 #services .container:nth-child(1) {
   display: inline-block;
@@ -313,7 +313,7 @@ ul {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  color: #EDF2F4; }
+  color: #FFFFFF; }
 
 #contact .container:nth-child(1) {
   display: inline-block;
@@ -338,7 +338,7 @@ ul {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  color: #EDF2F4; }
+  color: #FFFFFF; }
 
 #quality .container:nth-child(1) {
   display: inline-block;
@@ -377,7 +377,7 @@ ul {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  color: #EDF2F4; }
+  color: #FFFFFF; }
 
 #faq .container:nth-child(1) {
   display: inline-block;
@@ -399,7 +399,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    color: #EDF2F4; }
+    color: #FFFFFF; }
   #about .jumbotron {
     min-height: 500px;
     line-height: 500px;
@@ -407,7 +407,7 @@ ul {
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    color: #EDF2F4; }
+    color: #FFFFFF; }
   #services .jumbotron {
     min-height: 500px;
     line-height: 500px;
@@ -415,7 +415,7 @@ ul {
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    color: #EDF2F4; }
+    color: #FFFFFF; }
   #contact .jumbotron {
     min-height: 500px;
     line-height: 500px;
@@ -423,7 +423,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: #EDF2F4; }
+    color: #FFFFFF; }
   #quality .jumbotron {
     min-height: 500px;
     line-height: 500px;
@@ -431,4 +431,4 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: #EDF2F4; } }
+    color: #FFFFFF; } }
