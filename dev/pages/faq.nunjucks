@@ -17,5 +17,15 @@
   </div>
 </section>
 
+<section id="faq-main">
+  <div class="container">
+    <div class="section-header">
+      <h2>About TCL Consulting</h2>
+    </div> <!--/.section-header-->
+    {% include "partials/panel-group.nunjucks" %}
+
+  </div> <!--/.container-->
+</section>
+
 
 {% endblock %}
