@@ -1,21 +1,33 @@
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
-      <img src="build/images/marshall.png" class="img-responsive">
+      <img src="build/images/marshall.png">
+      <div class="overlay">
+        <div class="text">Marshall Aquillino</div>
+      </div>
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
-      <img src="build/images/laura1.png" class="img-responsive">
+      <img src="build/images/laura1.png">
+      <div class="overlay">
+        <div class="text">Laura Ross</div>
+      </div>
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
-      <img src="build/images/andrea1.png" class="img-responsive">
+      <img src="build/images/andrea1.png">
+      <div class="overlay">
+        <div class="text">Andrea Aquillino</div>
+      </div>
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
-      <img src="build/images/lori.png" class="img-responsive">
+      <img src="build/images/lori.png">
+      <div class="overlay">
+        <div class="text">Lori Aquillino</div>
+      </div>
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
