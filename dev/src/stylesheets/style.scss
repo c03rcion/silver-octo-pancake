@@ -477,4 +477,13 @@ margin: 40px auto;
     background-size: cover;
     color: $anti-flash-white;
   }
+  #faq .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_53651924_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $anti-flash-white;
+  }
 }

@@ -1,9 +1,9 @@
 <article>
-  <div class="col-xs-12 col-md-6">
+  <div class="col-xs-12 col-md-6 col-md-offset-3">
     <p>onec quis urna at ante volutpat varius vel vitae metus. Nullam eget porttitor nisi. Aenean sapien ligula, porta vel lectus sed, hendrerit faucibus sapien. Curabitur et volutpat ligula. Ut vitae ultricies magna, et sagittis tellus. Sed vitae vestibulum sapien, sed ullamcorper risus. Donec ut scelerisque ex. Pellentesque eget pharetra quam. Integer eget leo ex. </p>
   </div>
 </article>
-<div class="col-xs-12 col-md-6">
+<div class="col-xs-12 col-md-6 col-md-offset-3">
   <form action="" method="POST">
     <div class="form-group">
       <label for="nameInput">Name</label>
