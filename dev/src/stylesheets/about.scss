@@ -1,0 +1,92 @@
+/* ABOUT */
+#about .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/AdobeStock_65934338_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  color: $anti-flash-white;
+}
+#about .container:nth-child(1) {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+#about .container:nth-child(1) h1, p {
+  margin-left: 50px !important;
+}
+#about .container:nth-child(1) p {
+  font-size: 22px;
+}
+
+#about-main p {
+  margin-left: 0 !important;
+}
+#about-main article .btn-default {
+  background-color: $electric-blue;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  margin: 40px auto;
+}
+#about-main article .btn-default:hover {
+  background-color: #FFFFFF;
+  color: $electric-blue;
+  border: 2px solid $electric-blue;
+  margin-bottom: 38px;
+}
+#about-secondary {
+  background-color: $cool-grey;
+}
+#about-secondary  p {
+  margin-left: 0 !important;
+}
+#about-secondary p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important;
+}
+#about-secondary .section-header > h2 {
+  margin-top: 40px !important;
+}
+#about-team .thumbnail {
+  position: relative;
+}
+
+#about-team .thumbnail img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  transition: .5s ease;
+  background-color: $registration-black;
+}
+#about-team .thumbnail:hover .overlay {
+  height: 100%;
+}
+
+// why nowrap for white-space?
+#about-team .text {
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+#about-team .text h4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-team .text p {
+  margin-right: 10px;
+}
