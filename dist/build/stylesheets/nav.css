@@ -35,6 +35,56 @@ ul {
   border: none !important; }
 
 /* MEDIA QUERIES */
+@media (max-width: 768px) {
+  #landing .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_138713071_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    color: #FFFFFF; }
+  #about .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/AdobeStock_65934338_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: #FFFFFF; }
+  #services .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_99643168_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: #FFFFFF; }
+  #contact .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: url("../images/AdobeStock_138485966_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF; }
+  #quality .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_142364612_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF; }
+  #faq .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_53651924_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF; } }
+
 .affix.navbar-default {
   background: rgba(0, 0, 9, 0.9) !important; }
 
