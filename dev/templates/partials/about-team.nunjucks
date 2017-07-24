@@ -2,7 +2,10 @@
     <div class="thumbnail">
       <img src="build/images/marshall.png">
       <div class="overlay">
-        <div class="text">Marshall Aquillino</div>
+        <div class="text">
+          <h4>Marshall Aquillino, Operations</h4>
+          <p>Marketing, Business to Business, Operation</p>
+        </div>
       </div>
     </div>
   </div>
@@ -10,7 +13,10 @@
     <div class="thumbnail">
       <img src="build/images/laura1.png">
       <div class="overlay">
-        <div class="text">Laura Ross</div>
+        <div class="text">
+          <h4>Laura Ross, Technical Director</h4>
+          <p>Newborn screening, public health focus, regional prepardness for health crises and pandemics</p>
+        </div>
       </div>
     </div>
   </div>
@@ -18,15 +24,21 @@
     <div class="thumbnail">
       <img src="build/images/andrea1.png">
       <div class="overlay">
-        <div class="text">Andrea Aquillino</div>
+        <div class="text">
+          <h4>Andrea Aquillino, Project Manager</h4>
+          <p>Regulatory compliance, sample event management, planning, customer service. </p>
       </div>
     </div>
   </div>
+</div>
   <div class="col-xs-12 col-md-4">
     <div class="thumbnail">
       <img src="build/images/lori.png">
       <div class="overlay">
-        <div class="text">Lori Aquillino</div>
+        <div class="text">
+          <h4>Lori Aquillino, QA Manager</h4>
+          <p>Quality Assurance Manager, Compliance, FAA Auditing</p>
+        </div>
       </div>
     </div>
   </div>

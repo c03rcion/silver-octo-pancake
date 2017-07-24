@@ -241,8 +241,8 @@ ul {
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
-  width: 100%;
   height: 0;
+  width: 100%;
   transition: .5s ease;
   background-color: #000009; }
 
@@ -250,15 +250,16 @@ ul {
   height: 100%; }
 
 #about-team .text {
-  white-space: nowrap;
   color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); }
+  text-align: center;
+  overflow: hidden; }
+
+#about-team .text h4 {
+  margin-left: auto;
+  margin-right: auto; }
+
+#about-team .text p {
+  margin-right: 10px; }
 
 /* SERVICES */
 #services .jumbotron {
