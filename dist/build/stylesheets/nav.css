@@ -1,3 +1,40 @@
+/* Colors */
+/*the padding and border of that element no longer increase its width*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* GLOBAL */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif !important; }
+
+html {
+  height: 100%;
+  width: 100%; }
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+/* CLASSES */
+.section-header {
+  text-align: left !important;
+  margin-bottom: 40px;
+  font-family: 'Metrophobic', sans-serif !important; }
+
+.section-header p {
+  margin-left: 0 !important;
+  font-family: "Raleway", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px !important; }
+
+.thumbnail {
+  background-color: transparent !important;
+  border: none !important; }
+
+/* MEDIA QUERIES */
 .affix.navbar-default {
   background: rgba(0, 0, 9, 0.9) !important; }
 

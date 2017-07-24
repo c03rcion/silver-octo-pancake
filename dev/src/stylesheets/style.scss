@@ -1,3 +1,4 @@
+
 /* Colors */
 // $anti-flash-white: #EDF2F4;
 $anti-flash-white: #FFFFFF;
@@ -14,6 +15,7 @@ $lavendar-gray: #C4C5C7;
 $forest-green: #228B22;
 $electric-blue: #39BAAE;
 $cool-grey: #F3F3F7;
+ 
 
 /*the padding and border of that element no longer increase its width*/
 * {
@@ -53,394 +55,59 @@ ul {
   border: none !important;
 }
 
-/* LANDING */
-#landing .jumbotron {
-  min-height: 500px;
-  line-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_138713071_Preview.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  color: $anti-flash-white;
-}
-#landing .container:nth-child(1) {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-#landing .container:nth-child(1) h1, p {
-  margin-left: 50px !important;
-}
-#landing .container:nth-child(1) p {
-  font-size: 22px;
-}
-/* MAIN */
-#main h3 {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-#main .icon-card p {
-  text-align: center;
-  margin: $p-margin;
-}
-#main .icon-card i {
-  color: $forest-green;
-}
-#main .icon-card .btn-default {
-  background-color: $electric-blue;
-  border-radius: 10px;
-  color: #FFFFFF;
-  display: block;
-  width: 100%;
-  margin: 40px auto;
-}
-#main .icon-card .btn-default:hover {
-  background-color: #FFFFFF;
-  color: $electric-blue;
-  border: 2px solid $electric-blue;
-  margin-bottom: auto;
-}
-
-/* CAROUSEL */
-.carousel img{
-  margin: 0 auto;
-  width: 100%;
-}
-.carousel-inner > .item {
-  position: relative;
-  max-height: 600px;
-}
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.carousel-caption p {
-margin-left: 0 !important;
-}
-#carousel article p {
-margin-left: 0 !important;
-margin-bottom: 40px;
-}
-#carousel article .btn-default {
-background-color: $electric-blue;
-border-radius: 10px;
-color: #FFFFFF;
-display: block;
-width: 100%;
-margin: 40px auto;
-}
-/* AFFILIATIONS */
-#affiliations {
-  min-height: 400px;
-  background-color: $cool-grey !important;
-}
-#affiliations .row {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-#affiliations img {
-  max-width: 240px;
-  height: auto;
-}
-/* FOOTER */
-#footer ul {
-  list-style: none;
-  text-align: left;
-}
-#footer ul {
-  li {
-    display: inline-block;
-    margin: 10px;
-  }
-}
-#footer ul:nth-child(1) {
-  margin-top: 40px !important;
-}
-#footer ul:nth-child(2) a{
-  color: $electric-blue !important;
-}
-#footer ul:nth-child(3) {
-  text-align: left;
-  margin-top: 10px !important;
-}
-#footer a {
-  text-decoration: none !important;
-  color: $registration-black !important;
-  font-family: "Poppins", sans-serif !important;
-}
-#footer p {
-  margin-left: 0 !important;
-  margin-top: 10px;
-}
-#footer .col-xs-12:nth-child(3) p {
-  font-size: 18px;
-}
-#footer .col-xs-12.col-md-6:nth-child(1) p {
-  margin-top: 40px;
-}
-#footer .col-xs-12.col-md-3 {
-  text-align: left;
-  margin-top: 40px !important;
-}
-#footer .col-xs-12.col-md-3:nth-child(2) p:first-child{
-  margin-bottom: 21px !important;
-}
-#footer form {
-  margin-top: 20px !important;
-  margin-bottom: 10px !important;
-}
-#footer .btn-default {
-  background-color: $electric-blue !important;
-  color: #FFFFFF;
-}
-
-/* ABOUT */
-#about .jumbotron {
-  min-height: 500px;
-  line-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/AdobeStock_65934338_Preview.jpeg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-attachment: fixed;
-  background-size: cover;
-  color: $anti-flash-white;
-}
-#about .container:nth-child(1) {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-#about .container:nth-child(1) h1, p {
-  margin-left: 50px !important;
-}
-#about .container:nth-child(1) p {
-  font-size: 22px;
-}
-
-#about-main p {
-  margin-left: 0 !important;
-}
-#about-main article .btn-default {
-  background-color: $electric-blue;
-  border-radius: 10px;
-  color: #FFFFFF;
-  display: block;
-  width: 100%;
-  margin: 40px auto;
-}
-#about-main article .btn-default:hover {
-  background-color: #FFFFFF;
-  color: $electric-blue;
-  border: 2px solid $electric-blue;
-  margin-bottom: 38px;
-}
-#about-secondary {
-  background-color: $cool-grey;
-}
-#about-secondary  p {
-  margin-left: 0 !important;
-}
-#about-secondary p {
-  margin-left: 0 !important;
-  margin-bottom: 40px !important;
-}
-#about-secondary .section-header > h2 {
-  margin-top: 40px !important;
-}
-#about-team .thumbnail {
-  position: relative;
-}
-
-#about-team .thumbnail img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  height: 0;
-  width: 100%;
-  transition: .5s ease;
-  background-color: $registration-black;
-}
-#about-team .thumbnail:hover .overlay {
-  height: 100%;
-}
-
-// why nowrap for white-space?
-#about-team .text {
-  color: white;
-  text-align: center;
-  overflow: hidden;
-}
-#about-team .text h4 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#about-team .text p {
-  margin-right: 10px;
-}
-
-
-
-
-  /* CONTACT */
-  #contact .jumbotron {
-    min-height: 500px;
-    line-height: 500px;
-    background: url('../images/AdobeStock_138485966_Preview.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    color: $anti-flash-white;
-  }
-  #contact .container:nth-child(1) {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-  }
-  #contact .container:nth-child(1) h1, p {
-    margin-left: 50px !important;
-  }
-  #contact .container:nth-child(1) p {
-    font-size: 22px;
-  }
-  #contact-main article p {
-    margin-left: 0px !important;
-  }
-
-
-
-/* QUALITY */
-#quality .jumbotron {
-  min-height: 500px;
-  line-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_142364612_Preview.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  color: $anti-flash-white;
-}
-#quality .container:nth-child(1) {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-#quality .container:nth-child(1) h1, p {
-  margin-left: 50px !important;
-}
-#quality .container:nth-child(1) p {
-  font-size: 22px;
-}
-#quality-main article p {
-  margin-left: 0 !important;
-  margin-bottom: 40px;
-}
-#quality-features .row {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-#quality-features p {
-  margin-left: 0px !important;
-}
-#quality-features div:nth-child(2)  h3 {
-  text-align: left;
-}
-#quality-features{
-  background-color: $cool-grey;
-}
-
-/* FAQ */
-#faq .jumbotron {
-  min-height: 500px;
-  line-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_53651924_Preview.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  color: $anti-flash-white;
-}
-#faq .container:nth-child(1) {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-#faq .container:nth-child(1) h1, p {
-  margin-left: 50px !important;
-}
-#faq .container:nth-child(1) p {
-  font-size: 22px;
-}
-
-
-
-
 /* MEDIA QUERIES */
-@media(max-width: 768px){
-  #landing .jumbotron {
-    min-height: 500px;
-    line-height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_138713071_Preview.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    color: $anti-flash-white;
-  }
-  #about .jumbotron {
-    min-height: 500px;
-    line-height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/AdobeStock_65934338_Preview.jpeg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    color: $anti-flash-white;
-  }
-  #services .jumbotron {
-    min-height: 500px;
-    line-height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_99643168_Preview.jpeg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    color: $anti-flash-white;
-  }
-  #contact .jumbotron {
-    min-height: 500px;
-    line-height: 500px;
-    background: url('../images/AdobeStock_138485966_Preview.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: $anti-flash-white;
-  }
-  #quality .jumbotron {
-    min-height: 500px;
-    line-height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_142364612_Preview.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: $anti-flash-white;
-  }
-  #faq .jumbotron {
-    min-height: 500px;
-    line-height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_53651924_Preview.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: $anti-flash-white;
-  }
-}
+// @media(max-width: 768px){
+//   #landing .jumbotron {
+//     min-height: 500px;
+//     line-height: 500px;
+//     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_138713071_Preview.jpeg");
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: auto;
+//     color: $anti-flash-white;
+//   }
+//   #about .jumbotron {
+//     min-height: 500px;
+//     line-height: 500px;
+//     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/AdobeStock_65934338_Preview.jpeg");
+//     background-repeat: no-repeat;
+//     background-position: right;
+//     background-size: cover;
+//     color: $anti-flash-white;
+//   }
+//   #services .jumbotron {
+//     min-height: 500px;
+//     line-height: 500px;
+//     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_99643168_Preview.jpeg");
+//     background-repeat: no-repeat;
+//     background-position: right;
+//     background-size: cover;
+//     color: $anti-flash-white;
+//   }
+//   #contact .jumbotron {
+//     min-height: 500px;
+//     line-height: 500px;
+//     background: url('../images/AdobeStock_138485966_Preview.jpeg');
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+//     color: $anti-flash-white;
+//   }
+//   #quality .jumbotron {
+//     min-height: 500px;
+//     line-height: 500px;
+//     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_142364612_Preview.jpeg");
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+//     color: $anti-flash-white;
+//   }
+//   #faq .jumbotron {
+//     min-height: 500px;
+//     line-height: 500px;
+//     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_53651924_Preview.jpeg");
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+//     color: $anti-flash-white;
+//   }

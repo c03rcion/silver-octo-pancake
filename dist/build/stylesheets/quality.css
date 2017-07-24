@@ -1,0 +1,75 @@
+/* Colors */
+/*the padding and border of that element no longer increase its width*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* GLOBAL */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif !important; }
+
+html {
+  height: 100%;
+  width: 100%; }
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+/* CLASSES */
+.section-header {
+  text-align: left !important;
+  margin-bottom: 40px;
+  font-family: 'Metrophobic', sans-serif !important; }
+
+.section-header p {
+  margin-left: 0 !important;
+  font-family: "Raleway", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px !important; }
+
+.thumbnail {
+  background-color: transparent !important;
+  border: none !important; }
+
+/* MEDIA QUERIES */
+/* QUALITY */
+#quality .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_142364612_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF; }
+
+#quality .container:nth-child(1) {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; }
+
+#quality .container:nth-child(1) h1, p {
+  margin-left: 50px !important; }
+
+#quality .container:nth-child(1) p {
+  font-size: 22px; }
+
+#quality-main article p {
+  margin-left: 0 !important;
+  margin-bottom: 40px; }
+
+#quality-features .row {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+#quality-features p {
+  margin-left: 0px !important; }
+
+#quality-features div:nth-child(2) h3 {
+  text-align: left; }
+
+#quality-features {
+  background-color: #F3F3F7; }

@@ -35,3 +35,27 @@ ul {
   border: none !important; }
 
 /* MEDIA QUERIES */
+/* CONTACT */
+#contact .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: url("../images/AdobeStock_138485966_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF; }
+
+#contact .container:nth-child(1) {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; }
+
+#contact .container:nth-child(1) h1, p {
+  margin-left: 50px !important; }
+
+#contact .container:nth-child(1) p {
+  font-size: 22px; }
+
+#contact-main article p {
+  margin-left: 0px !important; }
