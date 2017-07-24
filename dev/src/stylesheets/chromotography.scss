@@ -1,0 +1,25 @@
+@import 'style';
+ 
+/* CHROMOTOGRAPHY */
+#chromotography .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_75128034.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  color: $anti-flash-white;
+}
+
+  #chromotography .container:nth-child(1) {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+  #chromotography .container:nth-child(1) h1, p {
+    margin-left: 50px !important;
+  }
+  #chromotography .container:nth-child(1) p {
+    font-size: 22px;
+  }
