@@ -83,6 +83,14 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: #FFFFFF; }
+  #chromotography .jumbotron {
+    min-height: 500px;
+    line-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/AdobeStock_75128034.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #FFFFFF; } }
 
 /* CHROMOTOGRAPHY */
