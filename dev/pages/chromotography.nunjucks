@@ -8,8 +8,6 @@
 {% endblock %}
 
 {% block content %}
-{% endblock %}
-
 <section id="chromotography">
   <div class="jumbotron">
     <div class="container">
@@ -17,4 +15,5 @@
       <p>Customized to Meet Your Specific Needs</p>
     </div>
   </div>
-</section>
+</section> 
+{% endblock %}
