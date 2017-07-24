@@ -329,6 +329,20 @@ ul {
 #services-secondary .section-header > h2 {
   margin-top: 40px !important; }
 
+#services-secondary article .btn-default {
+  background-color: #39BAAE;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  margin: 40px auto; }
+
+#services-secondary article .btn-default:hover {
+  background-color: #FFFFFF;
+  color: #39BAAE;
+  border: 2px solid #39BAAE;
+  margin-bottom: 38px; }
+
 /* SERVICES-THUMBS */
 #services-thumbs .row {
   margin-top: 40px; }
