@@ -8,7 +8,6 @@
 {% endblock %}
 
 {% block content %}
-{% endblock %}
 <section id="pesticide">
   <div class="jumbotron">
     <div class="container">
@@ -21,8 +20,8 @@
 <section id="pesticide-secondary">
   <div class="container">
     <div class="section-header">
-      <h2>Chromotography - The Study of Seperations Chemistry</h2>
-      <p>Modern Analytical Techniques for Measuring Terpenes and Cannbinoids</p>
+      <h2>Pesticide Analysis</h2>
+      <p></p>
     </div>
     <div class="row">
       <article>
@@ -39,4 +38,5 @@
       </article>
     </div>
   </div> <!--/.container-->
-</section>
+</section> 
+{% endblock %}

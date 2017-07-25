@@ -41,7 +41,9 @@
 </div>
 <div class="col-xs-12 col-md-4">
   <div class="thumbnail">
-    <img src="build/images/AdobeStock_121852069_Preview.jpeg" class="img-responsive">
+    <a href="pesticide.html">
+      <img src="build/images/AdobeStock_121852069_Preview.jpeg" class="img-responsive">
+    </a>
     <div class="caption">
       <h3>Pesticide Analysis</h3>
       <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium...</p>
@@ -50,7 +52,9 @@
 </div>
 <div class="col-xs-12 col-md-4">
   <div class="thumbnail">
-    <img src="build/images/AdobeStock_132557457_Preview.jpeg" class="img-responsive">
+    <a href="chromotography.html">
+      <img src="build/images/AdobeStock_132557457_Preview.jpeg" class="img-responsive">
+    </a>
     <div class="caption">
       <h3>Terpene Profiling</h3>
       <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium...</p>
