@@ -12,7 +12,9 @@
 </div>
 <div class="col-xs-12 col-md-4">
   <div class="thumbnail">
-    <img src="build/images/AdobeStock_58063672_Preview.jpeg" class="img-responsive">
+    <a href="genetic.html">
+      <img src="build/images/AdobeStock_58063672_Preview.jpeg" class="img-responsive">
+    </a>
     <div class="caption">
       <h3>Genetic Testing</h3>
       <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium...</p>
