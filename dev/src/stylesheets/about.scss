@@ -1,5 +1,5 @@
 @import 'style';
- 
+
 
 /* ABOUT */
 #about .jumbotron {
@@ -44,14 +44,21 @@
 #about-secondary {
   background-color: $cool-grey;
 }
-#about-secondary  p {
-  margin-left: 0 !important;
-}
-#about-secondary p {
+#about-secondary article p {
   margin-left: 0 !important;
   margin-bottom: 40px !important;
 }
 #about-secondary .section-header > h2 {
+  margin-top: 40px !important;
+}
+#about-tertiary {
+  // background-color: $cool-grey;
+}
+#about-tertiary article p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important;
+}
+#about-tertiary .section-header > h2 {
   margin-top: 40px !important;
 }
 #about-team .thumbnail {

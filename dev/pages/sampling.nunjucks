@@ -11,8 +11,8 @@
 <section id="sampling">
   <div class="jumbotron">
     <div class="container">
-      <h1>Residual Solvents</h1>
-      <p>Detection and Quantification of Solvents</p>
+      <h1>NEFAP Accredited Sampling</h1>
+      <p>Statistical Methods for Representative Samples</p>
     </div>
   </div>
 </section>
@@ -20,7 +20,7 @@
 <section id="sampling-main">
   <div class="container">
     <div class="section-header">
-      <h2>Residual Solvent Analysis</h2>
+      <h2>Sampling</h2>
       <p></p>
     </div>
     <div class="row">
@@ -43,7 +43,7 @@
 <section id="sampling-secondary">
   <div class="container">
     <div class="section-header">
-      <h2>Solvents of Interest</h2>
+      <h2>Sampling</h2>
     </div>
     <div class="row">
       <article>

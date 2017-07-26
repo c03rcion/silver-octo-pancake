@@ -104,7 +104,7 @@ ul {
 #sampling .jumbotron {
   min-height: 500px;
   line-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_144269748_Preview.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_142297479_Preview.jpeg");
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
@@ -123,7 +123,8 @@ ul {
   font-size: 22px; }
 
 #sampling-main article p {
-  margin-left: 0 !important; }
+  margin-left: 0 !important;
+  margin-bottom: 40px; }
 
 #sampling-secondary {
   background-color: #F3F3F7; }

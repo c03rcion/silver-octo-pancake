@@ -143,14 +143,18 @@ ul {
 #about-secondary {
   background-color: #F3F3F7; }
 
-#about-secondary p {
-  margin-left: 0 !important; }
-
-#about-secondary p {
+#about-secondary article p {
   margin-left: 0 !important;
   margin-bottom: 40px !important; }
 
 #about-secondary .section-header > h2 {
+  margin-top: 40px !important; }
+
+#about-tertiary article p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important; }
+
+#about-tertiary .section-header > h2 {
   margin-top: 40px !important; }
 
 #about-team .thumbnail {
