@@ -101,7 +101,7 @@ ul {
     background-size: cover;
     color: #FFFFFF; } }
 
-#pesticide .jumbotron {
+#residual .jumbotron {
   min-height: 500px;
   line-height: 500px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_121852069_Preview.jpeg");
@@ -111,16 +111,16 @@ ul {
   background-size: cover;
   color: #FFFFFF; }
 
-#pesticide .container:nth-child(1) {
+#residual .container:nth-child(1) {
   display: inline-block;
   vertical-align: middle;
   line-height: normal; }
 
-#pesticide .container:nth-child(1) h1, p {
+#residual .container:nth-child(1) h1, p {
   margin-left: 50px !important; }
 
-#pesticide .container:nth-child(1) p {
+#residual .container:nth-child(1) p {
   font-size: 22px; }
 
-#pesticide-secondary article p {
+#residual-secondary article p {
   margin-left: 0 !important; }

@@ -1,0 +1,44 @@
+{% extends "base.nunjucks" %}
+
+{% block title %}TCL Consulting | Services{% endblock %}
+
+{% block header %}
+{% import "macros/nav-macro.nunjucks" as nav %}
+{{nav.active('services')}}
+{% endblock %}
+
+{% block content %}
+<section id="residual">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Residual Solvents</h1>
+      <p>Analytical Techniques for Quantifying Cannabinoids and Terpenes</p>
+    </div>
+  </div>
+</section>
+
+<section id="residual-secondary">
+  <div class="container">
+    <div class="section-header">
+      <h2>Genetic Testing</h2>
+      <p></p>
+    </div>
+    <div class="row">
+      <article>
+        <div class="col-xs-12 col-md-6">
+          <h3>Plant Sexing</h3>
+          <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium. Suspendisse lorem quam, tempor quis faucibus eget, sagittis ut nulla. Proin lacinia, ipsum in aliquet feugiat, nisi nisi hendrerit nunc, vel sollicitudin justo nunc sed erat. Nam imperdiet nibh vitae lectus tristique, ut condimentum tortor lobortis. Etiam pulvinar, orci sit amet aliquam dictum, orci tellus elementum mi, maximus molestie lectus mi non tortor. Suspendisse finibus ac leo eu volutpat.
+          </p>
+          <!--/.have list here-->
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h3>Microbiological Screening</h3>
+          <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium. Suspendisse lorem quam, tempor quis faucibus eget, sagittis ut nulla. Proin lacinia, ipsum in aliquet feugiat, nisi nisi hendrerit nunc, vel sollicitudin justo nunc sed erat. Nam imperdiet nibh vitae lectus tristique, ut condimentum tortor lobortis. Etiam pulvinar, orci sit amet aliquam dictum, orci tellus elementum mi, maximus molestie lectus mi non tortor. Suspendisse finibus ac leo eu volutpat.
+          </p>
+          <!--/.have list here-->
+        </div>
+      </article>
+    </div>
+  </div> <!--/.container-->
+</section>
+{% endblock %}
