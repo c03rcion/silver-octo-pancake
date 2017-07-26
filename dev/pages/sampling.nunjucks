@@ -1,0 +1,61 @@
+{% extends "base.nunjucks" %}
+
+{% block title %}TCL Consulting | Services{% endblock %}
+
+{% block header %}
+{% import "macros/nav-macro.nunjucks" as nav %}
+{{nav.active('services')}}
+{% endblock %}
+
+{% block content %}
+<section id="sampling">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Residual Solvents</h1>
+      <p>Detection and Quantification of Solvents</p>
+    </div>
+  </div>
+</section>
+
+<section id="sampling-main">
+  <div class="container">
+    <div class="section-header">
+      <h2>Residual Solvent Analysis</h2>
+      <p></p>
+    </div>
+    <div class="row">
+      <article>
+        <div class="col-xs-12 col-md-6">
+          <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium. Suspendisse lorem quam, tempor quis faucibus eget, sagittis ut nulla. Proin lacinia, ipsum in aliquet feugiat, nisi nisi hendrerit nunc, vel sollicitudin justo nunc sed erat. Nam imperdiet nibh vitae lectus tristique, ut condimentum tortor lobortis. Etiam pulvinar, orci sit amet aliquam dictum, orci tellus elementum mi, maximus molestie lectus mi non tortor. Suspendisse finibus ac leo eu volutpat.
+          </p>
+          <!--/.have list here-->
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium. Suspendisse lorem quam, tempor quis faucibus eget, sagittis ut nulla. Proin lacinia, ipsum in aliquet feugiat, nisi nisi hendrerit nunc, vel sollicitudin justo nunc sed erat. Nam imperdiet nibh vitae lectus tristique, ut condimentum tortor lobortis. Etiam pulvinar, orci sit amet aliquam dictum, orci tellus elementum mi, maximus molestie lectus mi non tortor. Suspendisse finibus ac leo eu volutpat.
+          </p>
+          <!--/.have list here-->
+        </div>
+      </article>
+    </div>
+  </div> <!--/.container-->
+</section>
+
+<section id="sampling-secondary">
+  <div class="container">
+    <div class="section-header">
+      <h2>Solvents of Interest</h2>
+    </div>
+    <div class="row">
+      <article>
+        <div class="col-xs-12 col-md-6">
+          <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium. Suspendisse lorem quam, tempor quis faucibus eget, sagittis ut nulla. Proin lacinia, ipsum in aliquet feugiat, nisi nisi hendrerit nunc, vel sollicitudin justo nunc sed erat. Nam imperdiet nibh vitae lectus tristique, ut condimentum tortor lobortis. Etiam pulvinar, orci sit amet aliquam dictum, orci tellus elementum mi, maximus molestie lectus mi non tortor. Suspendisse finibus ac leo eu volutpat.</p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium. Suspendisse lorem quam, tempor quis faucibus eget, sagittis ut nulla. Proin lacinia, ipsum in aliquet feugiat, nisi nisi hendrerit nunc, vel sollicitudin justo nunc sed erat. Nam imperdiet nibh vitae lectus tristique, ut condimentum tortor lobortis. Etiam pulvinar, orci sit amet aliquam dictum, orci tellus elementum mi, maximus molestie lectus mi non tortor. Suspendisse finibus ac leo eu volutpat.
+          </p>
+        </div>
+      </article>
+    </div>
+  </div> <!--/.container-->
+</section>
+{% endblock %}

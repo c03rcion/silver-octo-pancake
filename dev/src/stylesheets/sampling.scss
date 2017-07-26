@@ -1,0 +1,41 @@
+@import 'style';
+
+#sampling .jumbotron {
+  min-height: 500px;
+  line-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_144269748_Preview.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  color: $anti-flash-white;
+}
+
+  #sampling .container:nth-child(1) {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+  #sampling .container:nth-child(1) h1, p {
+    margin-left: 50px !important;
+  }
+  #sampling .container:nth-child(1) p {
+    font-size: 22px;
+  }
+  #sampling-main article p {
+    margin-left: 0 !important;
+  }
+#sampling-secondary {
+  background-color: $cool-grey;
+}
+#sampling-secondary  p {
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+#sampling-secondary p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important;
+}
+#sampling-secondary .section-header > h2 {
+  margin-top: 40px !important;
+}
