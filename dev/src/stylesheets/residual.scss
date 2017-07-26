@@ -3,7 +3,7 @@
 #residual .jumbotron {
   min-height: 500px;
   line-height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_121852069_Preview.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/AdobeStock_144269748_Preview.jpeg");
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
@@ -22,7 +22,20 @@
   #residual .container:nth-child(1) p {
     font-size: 22px;
   }
-
-  #residual-secondary article p {
+  #residual-main article p {
     margin-left: 0 !important;
   }
+#residual-secondary {
+  background-color: $cool-grey;
+}
+#about-secondary  p {
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+#residual-secondary p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important;
+}
+#residual-secondary .section-header > h2 {
+  margin-top: 40px !important;
+}
