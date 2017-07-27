@@ -164,6 +164,9 @@ ul {
 #about-team .thumbnail {
   position: relative; }
 
+#about-team .caption {
+  text-align: center; }
+
 #about-team .thumbnail img {
   display: block;
   width: 100%;
