@@ -123,14 +123,11 @@ ul {
   font-size: 22px; }
 
 #residual-main article p {
-  margin-left: 0 !important; }
+  margin-left: 0 !important;
+  margin-bottom: 40px !important; }
 
 #residual-secondary {
   background-color: #F3F3F7; }
-
-#about-secondary p {
-  margin-left: 0 !important;
-  margin-bottom: 0 !important; }
 
 #residual-secondary p {
   margin-left: 0 !important;
@@ -138,3 +135,10 @@ ul {
 
 #residual-secondary .section-header > h2 {
   margin-top: 40px !important; }
+
+#residual-tertiary .section-header > h2 {
+  margin-top: 40px !important; }
+
+#residual-tertiary p {
+  margin-left: 0 !important;
+  margin-bottom: 40px !important; }

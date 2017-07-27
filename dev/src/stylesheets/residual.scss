@@ -24,13 +24,10 @@
   }
   #residual-main article p {
     margin-left: 0 !important;
+    margin-bottom: 40px !important;
   }
 #residual-secondary {
   background-color: $cool-grey;
-}
-#about-secondary  p {
-  margin-left: 0 !important;
-  margin-bottom: 0 !important;
 }
 #residual-secondary p {
   margin-left: 0 !important;
@@ -38,4 +35,11 @@
 }
 #residual-secondary .section-header > h2 {
   margin-top: 40px !important;
+}
+#residual-tertiary .section-header > h2 {
+  margin-top: 40px !important;
+}
+#residual-tertiary p{
+  margin-left: 0 !important;
+  margin-bottom: 40px !important;
 }

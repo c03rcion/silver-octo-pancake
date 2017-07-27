@@ -125,3 +125,17 @@ ul {
 
 #contact-main article p {
   margin-left: 0px !important; }
+
+#contact-main form .btn-default {
+  background-color: #39BAAE;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  margin: 40px auto; }
+
+#contact-main form .btn-default:hover {
+  background-color: #FFFFFF;
+  color: #39BAAE;
+  border: 2px solid #39BAAE;
+  margin-bottom: 38px; }
