@@ -1,6 +1,11 @@
   <div class="col-xs-12 col-md-3">
     <div class="thumbnail">
       <img src="build/images/marshall.png" class="img-circle">
+      <div class="caption">
+        <h3 class="text-center">Marshal Aquillino<h3>
+        <h4 class="text-center">President, CEO, Lab Director</h4>
+        <p>Company founder. Business to business marketing and commerce. Business operations and strategy.</p>
+      </div>
       <!-- <div class="overlay">
         <div class="text">
           <h4>Marshall Aquillino, Operations</h4>
@@ -12,6 +17,11 @@
   <div class="col-xs-12 col-md-3">
     <div class="thumbnail">
       <img src="build/images/laura1.png" class="img-circle">
+      <div class="caption">
+        <h3 class="text-center">Laura Ross<h3>
+        <h4 class="text-center">Technical Director</h4>
+        <p>BA Chemistry, BA Biology, 10 years experience with new born screening program, public health, and preparedness.</p>
+      </div>
       <!-- <div class="overlay">
         <div class="text">
           <h4>Laura Ross, Technical Director</h4>
@@ -23,6 +33,11 @@
   <div class="col-xs-12 col-md-3">
     <div class="thumbnail">
       <img src="build/images/andrea1.png" class="img-circle">
+      <div class="caption">
+        <h3 class="text-center">Andrea Aquillino<h3>
+        <h4 class="text-center">Sampling Manager</h4>
+        <p>Sample event coordinator, profiencet with statistical sampling prtocols and NEFAP, METRC coordinator</p>
+      </div>
       <!-- <div class="overlay">
         <div class="text">
           <h4>Andrea Aquillino, Project Manager</h4>
@@ -34,6 +49,11 @@
   <div class="col-xs-12 col-md-3">
     <div class="thumbnail">
       <img src="build/images/lori.png" class="img-circle">
+      <div class="caption">
+        <h3 class="text-center">Lori Aquillino</h3>
+        <h4 class="text-center">Quality Assurance Manager</h4>
+        <p>30 years quality assurance experience with the Federal Aviation Adminsitration, QMS author </p>
+      </div>
       <!-- <div class="overlay">
         <div class="text">
           <h4>Lori Aquillino, QA Manager</h4>
