@@ -150,6 +150,9 @@ ul {
 #about-secondary .section-header > h2 {
   margin-top: 40px !important; }
 
+#about-secondary article ul {
+  margin-left: 10px !important; }
+
 #about-tertiary article p {
   margin-left: 0 !important;
   margin-bottom: 40px !important; }
