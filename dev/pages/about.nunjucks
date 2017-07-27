@@ -53,41 +53,20 @@
       <article>
         <div class="col-xs-12 col-md-6">
           <h3>Pre-Accrediation</h3>
-          <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium. Suspendisse lorem quam, tempor quis faucibus eget, sagittis ut nulla. Proin lacinia, ipsum in aliquet feugiat, nisi nisi hendrerit nunc, vel sollicitudin justo nunc sed erat. Nam imperdiet nibh vitae lectus tristique, ut condimentum tortor lobortis. Etiam pulvinar, orci sit amet aliquam dictum, orci tellus elementum mi, maximus molestie lectus mi non tortor. Suspendisse finibus ac leo eu volutpat.</p>
-          <ul>
-            <li><p></p>Develop the Project Management process and time line for full transparency with you and your team allowing progression and status of the project to be available at all times.</li>
-            <li>QMS (Quality Management System) implementation with policy and procedures as well as training modules for ISO accreditation, and updated for the desired state’s requirements.</li>
-            <li>Method development and SOP (standard operating procedures) for Potency/Water Activity/Moisture Content/Microbial.</li>
-            <li>Site review and laboratory layout (approved by you)</li>
-            <li>Position hiring, (approved by you) and employment files for all employees.</li>
-            <li>Training for QMS, Ethics, ORELAP, and employee job specific training completed to level 3 with all documentation maintained in employee training folders.</li>
-            <li>Basic Marketing pieces uniquely designed for your project including business cards, laboratory employee badges, letterhead etc.</li>
-            <li>Laboratory instruments: HPLC (High-performance liquid chromatography), Desiccator, Oven, Incubator, Water Activity Meter and additional per the required inventory list.</li>
-            <li>Laboratory equipment: Pipettes, Vortexer, Centrifuge, Solicitor, balances, pipettes, etc.</li>
-            <li>Office Equipment: Front desk, office furniture, data storage server, computers, printers, network appropriate for an office staff of five, etc.</li>
-            <li>Account setup with laboratory instrument companies as needed such as: Restek, Shimadzu, LabDaq, Thermo Fisher, Millapursigma etc.</li>
-            <li>Business account Setup - VOIP system, email system, ADP payroll system, Laboratory Information management System (LIMS) setup and connected to HPLC instrument and water activity monitor for data analysis and client reporting.</li>
-            <li>Chemist support for instrument calibration, method validation, and  PT’s (Proficiency Testing)</li>
-            <li>ISO 17025 Accreditation in project state for QMS and facility.</li>
-            <li>NEFAP Accreditation for project state.</li>
-          </ul>
+          <p>Our pre-accrediation phase is focuses on the laboratory site & layout, position hiring, laboratory and office equipment installation, and business and marketing accounts and setup. This crucial phase brings in the physical assets that will be needed to get your lab running as well as implementation of Quality Systems and Standard Operating Procedures. This is to prepare the laboratory for the requirements of keeping compliant with the state regulators and accrediation bodies.  </p>
         </div>
         <div class="col-xs-12 col-md-6">
           <h3>Post-Accrediation</h3>
+          <p>Once accreditation has been obtained, TCL provides a QA capacity to provide feedback for laboratory compliance, and what corrective actions may be required. This phase is implemented, in part, by performing quartly audits. The reports generated from these audits detail issues with CAR's and PAR's (Corrective Action Reviews and Preventative Action Reviews). We also provide 6 months advisory services to the Board of the new laboratory. </p>
           <p>Phasellus sed dapibus dui. Maecenas euismod elit sit amet lorem dignissim convallis. Proin faucibus ipsum sed varius pretium. Suspendisse lorem quam, tempor quis faucibus eget, sagittis ut nulla. Proin lacinia, ipsum in aliquet feugiat, nisi nisi hendrerit nunc, vel sollicitudin justo nunc sed erat. Nam imperdiet nibh vitae lectus tristique, ut condimentum tortor lobortis. Etiam pulvinar, orci sit amet aliquam dictum, orci tellus elementum mi, maximus molestie lectus mi non tortor. Suspendisse finibus ac leo eu volutpat.
           </p>
-          <ul>
-            <li>Quarterly audit of facility - audit report with issues and CAR’s and PAR’s (Corrective Action’s, Preventative Actions Review).</li>
-            <li>1 year pre reaccreditation audit and support with report for CAR’s, PAR’s to ensure ease of process.</li>
-            <li>6 Months Advisory services to the Board of the new Laboratory. </li>
-          </ul>
         </div>
       </article>
     </div>
   </div> <!--/.container-->
 </section>
 
-<section id="about-tertiary">
+<!-- <section id="about-tertiary">
   <div class="container">
     <div class="section-header">
       <h2>Turn-key Laboratories</h2>
@@ -107,10 +86,9 @@
       </article>
 
     </div>
-  </div> <!--/.container-->
-</section>
+  </div>
+</section> -->
 
-<hr/>
 <section id="about-team">
   <!-- team thumbnail photos -->
   <div class="container">
