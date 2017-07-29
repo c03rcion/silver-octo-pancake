@@ -25,11 +25,10 @@
     <div class="row">
       <article>
         <div class="col-xs-12 col-md-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, sem a vulputate commodo, sem velit suscipit turpis, a laoreet lectus felis ac leo. Donec quis volutpat orci, in tincidunt turpis. Sed sit amet enim sit amet enim semper vulputate vitae vel justo. Nunc lobortis bibendum rhoncus. Phasellus ut purus id neque lacinia venenatis aliquam non sapien. Donec ultricies justo nec sem vulputate feugiat. Nam fringilla blandit mauris a congue. Nam odio eros, eleifend vel mollis pretium, faucibus vel nibh.
-          </p>
+          <p>A cruical part of a functioning laboratory is the lab's quality manual. The quality manaual describes, speicifically, the scope of the activities of the laboratory and establishes documentation for the procedural means by which those actitivies are fufilled. The Quality Manaual provides the all documentaion required to run the laboratory and may include: procedures, policies, forms, and checklists. These activites include: nonconformity, corrective and preventitive action, document control, records management, and internal audit.</p>
         </div>
         <div class="col-xs-12 col-md-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, sem a vulputate commodo, sem velit suscipit turpis, a laoreet lectus felis ac leo. Donec quis volutpat orci, in tincidunt turpis. Sed sit amet enim sit amet enim semper vulputate vitae vel justo. Nunc lobortis bibendum rhoncus. Phasellus ut purus id neque lacinia venenatis aliquam non sapien. Donec ultricies justo nec sem vulputate feugiat. Nam fringilla blandit mauris a congue. Nam odio eros, eleifend vel mollis pretium, faucibus vel nibh.
+          <p>A Quality Manaual is important not just for regulatory compliance purposes, but also for creating an objective document that provides instruction for how functions are performed within the laboratory. This eliminates the need for "tribal knowledge" and institutional dependencies on personnel.
           </p>
         </div>
       </article>
@@ -47,7 +46,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="build/images/AdobeStock_92159430_Preview.jpeg" class="img-responsive img-rounded">
+          <img src="build/images/qctech.jpeg" class="img-responsive img-rounded">
         </div>
         <hr>
       </article>
@@ -60,7 +59,7 @@
           </p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img src="build/images/AdobeStock_138656077_Preview.jpeg" class="img-responsive img-rounded">
+          <img src="build/images/sop.jpeg" class="img-responsive img-rounded">
         </div>
 
         <hr>
@@ -74,7 +73,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="build/images/AdobeStock_155056353_Preview.jpeg" class="img-responsive img-rounded">
+          <img src="build/images/wellplate.jpeg" class="img-responsive img-rounded">
         </div>
         <hr>
       </article>

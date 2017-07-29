@@ -9,8 +9,8 @@
   <h3>Lab Instruments</h3>
   <p>We create a site layout based on your specific needs with require to the types of test methods which will be executed on site. Our scientific staff provides technical insight to ensure tne layout is suited for the insturmentation.</p>
   <!-- /* link to chromotography page */ -->
-  <a href="chromo.html" class="btn btn-default"><strong>Instruments</strong></a>
-</div>
+  <a href="chromotography.html" class="btn btn-default"><strong>Instruments</strong></a>
+</div> 
 <div class="icon-card col-xs-12 col-md-3">
   <h3><i class="fa fa-users fa-4x" aria-hidden="true"></i></h3>
   <h3> Staffing & Training</h3>
